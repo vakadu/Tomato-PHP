@@ -5,7 +5,7 @@
     <div class="overlay">
         <div class="container">
             <div class="col-md-12">
-                <div class="home__container"><!--Start Content Container-->
+                <div class="home__container wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".5s"><!--Start Content Container-->
 
                     <div class="home__text"><!--start home text-->
                         <h1>Kwiqpick is your new digital waiter</h1>
@@ -89,12 +89,12 @@
         <div class="container">
             <div class="row">
                 <div class="container">
-                    <div class="col-xs-12 col-md-5 download__kwiqpick-right--image">
+                    <div class="col-xs-12 col-md-5 download__kwiqpick-right--image  wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                         <figure>
                             <img data-src="assets/images/kwqipick-app.png" alt="Kwiqpick App"  height="339" class="lazyload">
                         </figure><!--end kwiqpick image-->
                     </div><!--end image on right-->
-                    <div class="col-xs-12 col-md-7 download__kwiqpick-left--text">
+                    <div class="col-xs-12 col-md-7 download__kwiqpick-left--text wow animated fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <h3>digital waiter app</h3>
                         <p>Kwiqpick doesn't make its customers wait. It simply allows diners to check-in at any table of a participating dining outlet - Restaurant or Pub - and start ordering ones food and drinks.</p>
                         <div class="playstore-btn">

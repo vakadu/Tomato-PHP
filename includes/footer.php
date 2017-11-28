@@ -1,6 +1,6 @@
 <!--Footer-->
 <footer class="footer lazyload">
-    <div class="container">
+    <div class="container wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
 
         <!--Footer top Starts-->
         <div class="row footer__top">
@@ -68,6 +68,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/scripts/jquery.isotope.min.js"></script>
+<script src="assets/scripts/headroom.js"></script>
+<script src="assets/scripts/scripts.js"></script>
 
 </body>
 </html>
