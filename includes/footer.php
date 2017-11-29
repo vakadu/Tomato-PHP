@@ -62,14 +62,13 @@
     </div><!--end container-->
 </footer><!--end footer-->
 
-<script src="assets/scripts/App.js"></script>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="assets/scripts/jquery.isotope.min.js"></script>
 <script src="assets/scripts/headroom.js"></script>
+<script src="assets/scripts/lazysizes.min.js"></script>
 <script src="assets/scripts/scripts.js"></script>
 
 </body>

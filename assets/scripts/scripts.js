@@ -1,6 +1,8 @@
 $(document).ready(function() {
     "use strict";
 
+    $(".bg-image").css("background",function(){var a="url("+$(this).data("image-src")+") no-repeat center center";return a}),$(".bg-image").css("background-size","cover");
+
     // grab an element
     var myElement = document.querySelector('#header');
     // construct an instance of Headroom, passing the element
@@ -16,31 +18,4 @@ $(document).ready(function() {
     });
     // initialise
     headroom.init();
-
-    /////// Isotope
-    $("nav.primary ul a").click(function() {
-        var selector = $(this).attr("data-filter");
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: "linear",
-                queue: false,
-            }
-        });
-        return false;
-    });
-    var $optionSets = $("nav.primary ul"),
-        $optionLinks = $optionSets.find("a");
-    $optionLinks.click(function() {
-        //alert( $optionLinks);
-        var $this = $(this);
-        // don"t proceed if already selected
-        if ($this.hasClass("selected")) {
-            return false;
-        }
-        var $optionSet = $this.parents("nav.primary ul");
-        $optionSet.find(".selected").removeClass("selected");
-        $this.addClass("selected");
-    });
 });
