@@ -1,7 +1,10 @@
 $(document).ready(function() {
     "use strict";
 
-    $(".bg-image").css("background",function(){var a="url("+$(this).data("image-src")+") no-repeat center center";return a}),$(".bg-image").css("background-size","cover");
+    $(".bg-image").css("background", function () {
+        var a = "url(" + $(this).data("image-src") + ") no-repeat center center";
+        return a
+    }), $(".bg-image").css("background-size", "cover");
 
     // grab an element
     var myElement = document.querySelector('#header');
@@ -18,4 +21,6 @@ $(document).ready(function() {
     });
     // initialise
     headroom.init();
+
+    new WOW().init();
 });
