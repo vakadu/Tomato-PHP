@@ -10,3 +10,4 @@ $connection = pg_connect($conn_string);
 //else{
 //    echo "NO";
 //}
+//

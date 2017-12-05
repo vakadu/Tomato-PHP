@@ -89,18 +89,18 @@
         <div class="container">
             <div class="row">
                 <div class="container">
-                    <div class="col-xs-12 col-md-5 download__kwiqpick-right--image  wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-xs-12 col-md-5 download__kwiqpick-right--image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                         <figure>
                             <img data-src="assets/images/kwqipick-app.png" alt="Kwiqpick App"  height="339" class="lazyload">
                         </figure><!--end kwiqpick image-->
                     </div><!--end image on right-->
-                    <div class="col-xs-12 col-md-7 download__kwiqpick-left--text wow animated fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-xs-12 col-md-7 download__kwiqpick-left--text wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <h3>digital waiter app</h3>
                         <p>Kwiqpick doesn't make its customers wait. It simply allows diners to check-in at any table of a participating dining outlet - Restaurant or Pub - and start ordering ones food and drinks.</p>
-                        <div class="playstore-btn">
-                            <a href="https://play.google.com/store/apps/details?id=com.awatasoftsys.kwiqpick&hl=en" class="store-btn android-button clearfix" target="_blank">
-                                <div class="pull-left"><i class="fa fa-android"></i> </div>
-                                <div class="pull-right"> <span class="available-text">Available on the</span> <span class="playstore">Play store</span> </div>
+                        <div class="playstore-btn ml-12">
+                            <a href="https://play.google.com/store/apps/details?id=com.awatasoftsys.kwiqpick&hl=en" class="clearfix" target="_blank">
+<!--                                <div class="pull-left"><i class="fa fa-android"></i> </div>-->
+                                <img src="assets/images/google_play.png" width="180px" height="80px">
                             </a>
                         </div><!--end playstore btn-->
                     </div><!--end text on left side-->

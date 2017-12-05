@@ -22,5 +22,52 @@ $(document).ready(function() {
     // initialise
     headroom.init();
 
-    new WOW().init();
+    if($('.wow').length){
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       0,          // distance to the element when triggering the
+                                          // animation (default is 0)
+                mobile:       true,       // trigger animations on mobile devices (default
+                                          // is true)
+                live:         true        // act on asynchronously loaded content (default is
+                                         // true)
+            }
+        );
+        wow.init();
+    }
+
+    if ($("#contact-form").length){
+        $("#contact-form").validate({
+            rules: {
+                name: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true
+                },
+                subject: {
+                    required: true
+                },
+                message: {
+                    required: true
+                }
+            }
+        });
+    }
 });
+
+$(window).on('load', function() {
+    preloader();
+});
+
+function preloader() {
+    if ($('.preloader').length){
+        $('.preloader').delay(200).fadeOut(500);
+    }
+}

@@ -1,9 +1,38 @@
 <?php include "includes/header.php"; ?>
 
 <div class="wrapper">
-    <div class="restaurants--bg-image hero-image">
-        <div class="container"></div>
-    </div>
+    <section class="menu--bg-image hero-image profile__restaurant">
+        <div class="container menu-container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4 profile__restaurant-img">
+                    <div class="profile__restaurant-img__wrap">
+                        <figure>
+                            <img src="http://placehold.it/240x140" alt="Restaurant Image">
+                        </figure>
+                    </div><!--end img wrap-->
+                </div><!--end column-->
+
+                <div class="col-xs-12 col-md-8 col-lg-8 profile__restaurant-desc">
+                    <div class="pull-left profile__restaurant__right-text white-text">
+                        <h6><a href="#">faasos</a></h6> <a class="btn btn--xs btn--green">Open</a>
+                        <p>Fast Food, North Indian, Rolls</p>
+                        <ul class="nav nav-inline">
+                            <li class="nav-item"><i class="fa fa-check"></i> Min &#x20b9;300</li>
+                            <li class="nav-item ratings">
+                            <span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--end column-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section><!--end section menu bg-->
 
     <section class="contact">
         <div class="container">
@@ -46,7 +75,7 @@
 
                 <div class="col-md-4">
                     <h4>Reservation is fast, easy and free</h4>
-                    <p>Once you"re registered, you can:</p>
+                    <p>Once reservation is completed. You can:</p>
                     <ul class="list-check list-unstyled">
                         <li>Buy, sell, and interact with other members.</li>
                         <li>Save your favorite searches and get notified.</li>
