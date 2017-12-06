@@ -1,5 +1,11 @@
 <?php include "includes/header.php"; ?>
 
+<?php
+
+//sql queries and php variables goes here
+
+?>
+
 <div class="wrapper">
     <div class="restaurants--bg-image hero-image">
         <div class="container"></div>
@@ -53,6 +59,12 @@
                 <div class="col-xs-12 col-md-7 col-lg-9 mt-20">
                     <div class="restaurants__open-point bg-grey">
                         <div class="row">
+
+                            <?php
+
+                            //php loop goes here
+
+                            ?>
                             <div class="col-sm-12 col-md-12 col-lg-8">
                                 <div class="restaurants__open-point__logo">
                                     <a class="img-responsive" href="#">
@@ -68,6 +80,10 @@
                                     <span>Accepts cash & online payments</span>
                                 </div><!--end restaurant description-->
                             </div><!--end column-->
+
+                            <?php
+                            //php loop ends here
+                            ?>
 
                             <div class="col-sm-12 col-md-12 col-lg-4">
                                 <div class="restaurants__content-right bg-white">
