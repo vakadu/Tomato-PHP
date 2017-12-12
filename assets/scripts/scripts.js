@@ -60,6 +60,33 @@ $(document).ready(function() {
             }
         });
     }
+
+    /* ------------------------------------------------------------------------- *
+     * BUTTON RIPPLE EFFECT
+     * ------------------------------------------------------------------------- */
+    var $btnRipple = $('.btn--ripple'),
+        $btnRippleInk, btnRippleH, btnRippleX, btnRippleY;
+
+    $btnRipple.on('mouseenter', function (e) {
+        var $t = $(this);
+
+        if( $t.find(".btn--ripple-ink").length === 0) {
+            $t.prepend("<span class='btn--ripple-ink'></span>");
+        }
+
+        $btnRippleInk = $t.find(".btn--ripple-ink");
+        $btnRippleInk.removeClass("btn--ripple-animate");
+
+        if( !$btnRippleInk.height() && !$btnRippleInk.width() ) {
+            btnRippleH = Math.max($t.outerWidth(), $t.outerHeight());
+            $btnRippleInk.css({height: btnRippleH, width: btnRippleH});
+        }
+
+        btnRippleX = e.pageX - $t.offset().left - $btnRippleInk.width() / 2;
+        btnRippleY = e.pageY - $t.offset().top - $btnRippleInk.height() / 2;
+
+        $btnRippleInk.css({top: btnRippleY + 'px', left: btnRippleX + 'px'}).addClass("btn--ripple-animate");
+    });
 });
 
 $(window).on('load', function() {

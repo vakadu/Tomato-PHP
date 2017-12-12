@@ -91,8 +91,8 @@
                                         <div class="restaurants__content-right__review-block mb-20">
                                             <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i>
                                         </div>
-                                        <a href="menu.php" class="btn btn--small mr-5 btn--flat-line" title="View Menu">Menu</a>
-                                        <a href="re" class="btn btn--small btn--flat-line ">Reserve</a>
+                                        <a href="menu.php" class="btn btn--small mr-5 btn--flat-line btn--ripple" title="View Menu">Menu</a>
+                                        <a href="" class="btn btn--small btn--flat-line btn--ripple">Reserve</a>
                                     </div>
                                 </div><!--end content right-->
                             </div><!--end column-->

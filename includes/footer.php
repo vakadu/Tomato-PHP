@@ -1,6 +1,6 @@
 <!--Footer-->
 <footer class="footer lazyload">
-    <div class="container wow fadeIn" data-wow-delay="1s" data-wow-duration="1500ms">
+    <div class="container wow fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
 
         <!--Footer top Starts-->
         <div class="row footer__top">

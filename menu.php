@@ -14,7 +14,7 @@
 
                 <div class="col-xs-12 col-md-8 col-lg-8 profile__restaurant-desc">
                     <div class="pull-left profile__restaurant__right-text white-text">
-                        <h6><a href="#">faasos</a></h6> <a class="btn btn--xs btn--green">Open</a>
+                        <h6><a href="#">faasos</a></h6> <a class="btn btn--xs btn--green btn--ripple">Open</a>
                         <p>Fast Food, North Indian, Rolls</p>
                         <ul class="nav nav-inline">
                             <li class="nav-item"><i class="fa fa-check"></i> Min &#x20b9;300</li>
@@ -96,7 +96,7 @@
                                     <span class="restaurant-menu__price pull-left">
                                         &#x20b9;300
                                     </span>
-                                        <a href="#" class="btn btn--medium btn--orange pull-right">Customizable</a>
+                                        <a href="#" class="btn btn--medium btn--orange pull-right btn--ripple">Customize</a>
                                     </div><!--end logo-->
                                 </div><!--end row-->
                             </div><!--end menu item-->
@@ -159,7 +159,7 @@
                                         </div><!--end non-veg-->
                                         <div class="restaurant-menu__desc">
                                             <h6><a href="#">Thai Nam Prik Chicken</a> </h6>
-                                            <p>Item Desc</p>9*9
+                                            <p>Item Desc</p>
                                         </div><!--end description-->
                                     </div><!--end column-->
 

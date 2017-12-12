@@ -65,7 +65,7 @@
                                         <img src="assets/images/non-veg.png">
                                     </div>
                                     <div class="search--food-item__name">Fried Chicken with cheese</div>
-                                    <div class="search--food-item__price"> <span class="price">&#x20b9; 150</span> <a href="#" class="btn btn-xs btn--green pull-right">Customize</a>
+                                    <div class="search--food-item__price"> <span class="price">&#x20b9; 150</span> <a href="#" class="btn btn-xs btn--green btn--ripple pull-right">Customize</a>
                                     </div>
                                 </div><!--end content-->
                                 <div class="search--food-item__restaurant">
