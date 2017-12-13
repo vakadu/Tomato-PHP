@@ -12129,6 +12129,12 @@ textarea:-ms-input-placeholder {
     }
 }
 
+.home__logo{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
 .home__text h1 {
     color: #fff;
     font-size: 2rem;

@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body data-scroll-animation="true">
 
 <!-- Preloader -->
 <div class="preloader"></div>

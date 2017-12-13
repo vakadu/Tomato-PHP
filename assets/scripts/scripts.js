@@ -1,10 +1,18 @@
 $(document).ready(function() {
     "use strict";
 
+    /* ================================================
+     Background Image
+     ================================================ */
+
     $(".bg-image").css("background", function () {
         var a = "url(" + $(this).data("image-src") + ") no-repeat center center";
         return a
     }), $(".bg-image").css("background-size", "cover");
+
+    /* ================================================
+     Headrom
+     ================================================ */
 
     // grab an element
     var myElement = document.querySelector('#header');
@@ -22,21 +30,20 @@ $(document).ready(function() {
     // initialise
     headroom.init();
 
-    if($('.wow').length){
-        var wow = new WOW(
-            {
-                boxClass:     'wow',      // animated element css class (default is wow)
-                animateClass: 'animated', // animation css class (default is animated)
-                offset:       0,          // distance to the element when triggering the
-                                          // animation (default is 0)
-                mobile:       true,       // trigger animations on mobile devices (default
-                                          // is true)
-                live:         true        // act on asynchronously loaded content (default is
-                                         // true)
-            }
-        );
-        wow.init();
+    /* ================================================
+     Wow Animation
+     ================================================ */
+
+    var scrollAnim = $('body').data('scroll-animation');
+
+    if (scrollAnim) {
+        //Wowjs
+        new WOW().init();
     }
+
+    /* ================================================
+     Contact Form Validation
+     ================================================ */
 
     if ($("#contact-form").length){
         $("#contact-form").validate({
@@ -61,9 +68,9 @@ $(document).ready(function() {
         });
     }
 
-    /* ------------------------------------------------------------------------- *
-     * BUTTON RIPPLE EFFECT
-     * ------------------------------------------------------------------------- */
+    /* ================================================
+     Button Ripple Effect
+     ================================================ */
     var $btnRipple = $('.btn--ripple'),
         $btnRippleInk, btnRippleH, btnRippleX, btnRippleY;
 
@@ -92,6 +99,10 @@ $(document).ready(function() {
 $(window).on('load', function() {
     preloader();
 });
+
+/* ================================================
+ Preloader
+ ================================================ */
 
 function preloader() {
     if ($('.preloader').length){
