@@ -35,20 +35,6 @@
     </div><!--end overlay-->
 </section><!--end home-->
 
-<!--Steps for Kwiqpick-->
-<!--<section id="section-kwiqpick" class="kwiqpick">-->
-    <!--<div class="container">-->
-        <!--<div class="kwiqpick__work-process__container">-->
-            <!--<h2>easy 3 step reservation</h2>-->
-            <!--<div class="row kwiqpick__work-process">-->
-                <!--<div class="col-xs-12 col-sm-12 col-md-4">-->
-                    <!---->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
-
 <!--Download Section-->
 <section id="section-download" class="download lazyload">
     <div class="download__app">
@@ -65,7 +51,6 @@
                         <p>Kwiqpick doesn't make its customers wait. It simply allows diners to check-in at any table of a participating dining outlet - Restaurant or Pub - and start ordering ones food and drinks.</p>
                         <div class="playstore-btn ml-12">
                             <a href="https://play.google.com/store/apps/details?id=com.awatasoftsys.kwiqpick&hl=en" class="clearfix" target="_blank">
-<!--                                <div class="pull-left"><i class="fa fa-android"></i> </div>-->
                                 <img src="assets/images/google_play.png" width="180px" height="80px">
                             </a>
                         </div><!--end playstore btn-->

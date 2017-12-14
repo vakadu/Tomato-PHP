@@ -61,11 +61,8 @@
     </div><!--end container-->
 </footer><!--end footer-->
 
-
-<!-- jQuery library -->
+<!--start scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="assets/scripts/jquery.migrate.js"></script>
-<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="assets/scripts/validate.js"></script>
 <script src="assets/scripts/wow.min.js"></script>
@@ -73,12 +70,14 @@
 <script src="assets/scripts/velocity.min.js"></script>
 <script src="assets/scripts/velocity.ui.min.js"></script>
 <script src="assets/scripts/lazysizes.min.js"></script>
-<script src="assets/scripts/jquery.stellar.js"></script>
 <script src="assets/scripts/animation.js"></script>
 <script src="assets/scripts/scripts.js"></script>
+<!--end scripts-->
 
+<!--start google maps scripts-->
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyAsff7D1zvnZtFSyBipKn7utq6VVVYvsmA"></script>
 <script src="assets/scripts/map-script.js"></script>
+<!--end google maps scripts-->
 
 </body>
 </html>
