@@ -105,7 +105,10 @@ $(window).on('load', function() {
  ================================================ */
 
 function preloader() {
-    if ($('.preloader').length){
-        $('.preloader').delay(200).fadeOut(500);
-    }
+    // if ($('.preloader').length){
+    //     // $('.preloader').delay(200).fadeOut(500);
+    //     $('.preloader');
+    // }
+    var $preloader = $('.preloader');
+    $preloader.delay(200).fadeOut(500);
 }

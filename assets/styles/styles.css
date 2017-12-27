@@ -11268,6 +11268,10 @@ hr {
     margin-left: -12px;
 }
 
+.pl-40{
+    padding-left: 40px;
+}
+
 .pt-0 {
     padding-top: 0
 }
@@ -11436,17 +11440,109 @@ hr {
     padding-bottom: 200px
 }
 
+/*.preloader{*/
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: 9999999;*/
+    /*background-color: #ffffff;*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url(/Website-v3.0.1/assets/images/preloader.GIF);*/
+/*}*/
 .preloader{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999999;
-    background-color: #ffffff;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url(/Website-v3.0.1/assets/images/preloader.GIF);
+    background: #cb212c;
+    z-index: 3000;
+}
+
+.blocks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes loader {
+    0%, 10%, 100% {
+        width: 60px;
+        height: 60px;
+    }
+    65% {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@keyframes loaderBlock {
+    0%, 30% {
+        transform: rotate(0);
+    }
+    55% {
+        background-color: rgba(238, 238, 238, 0.8);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes loaderBlockInverse {
+    0%, 20% {
+        transform: rotate(0);
+    }
+    55% {
+        background-color: rgba(238, 238, 238, 0.8);
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
+    animation: loader 1.2s infinite ease-in-out;
+}
+
+.loader span {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    animation: loaderBlock 1.2s infinite ease-in-out both;
+}
+
+.loader span:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.loader span:nth-child(2) {
+    top: 0;
+    right: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+}
+
+.loader span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+}
+
+.loader span:nth-child(4) {
+    bottom: 0;
+    right: 0;
 }
 
 .section-title{
@@ -11978,6 +12074,108 @@ textarea:-ms-input-placeholder {
 .home__boxes--item h4 span {
     font-size: 18px;
     color: #cb212c
+}
+
+.features{
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.features__content {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.vertical-featured-image-container {
+    text-align: center !important;
+}
+
+.vertical-featured-image-container img {
+    max-height: 100% !important;
+}
+
+.features__title {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+[class*="col-"] .col-md-12 .features__title,
+[class*="col-"] .col-lg-12 .features__title,
+[class*="col-"] .col-xs-12 .features__title,
+[class*="col-"] .col-sm-12 .features__title {
+    width: 100%;
+}
+
+.features__title:after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #f17663;
+    margin-top: 25px;
+    display: block;
+}
+
+.features__title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.features__subtitle {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -10px;
+    color: #999;
+    display: inline-block;
+}
+
+.features__feature {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px !important;
+}
+
+.features__feature .features__feature-icon {
+    position: absolute;
+}
+
+.features__feature .features__feature-icon.icon-x3 + .features__feature-content {
+    padding-left: 94px;
+    min-height: 64px;
+}
+
+.icon {
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.icon-x3 {
+    width: 64px;
+    height: 64px;
+}
+
+.icon-x3 i {
+    line-height: 64px;
+    font-size: 27px;
+}
+
+.features__feature-content h4{
+    font-size: 18px;
+}
+
+.features__feature-content p{
+    line-height: 22px;
+    font-size: 14px;
 }
 
 .download {

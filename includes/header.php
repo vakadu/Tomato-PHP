@@ -28,7 +28,17 @@
 <body data-scroll-animation="true">
 
 <!-- Preloader -->
-<div class="preloader"></div>
+<!--<div class="preloader"></div>-->
+<div class="preloader">
+    <div class="blocks">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
 
 <!--navigation-->
 <header id="header" class="headrom">

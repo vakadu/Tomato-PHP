@@ -35,6 +35,109 @@
     </div><!--end overlay-->
 </section><!--end home-->
 
+<!--Features Section-->
+<section id="section-features" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="features__content">
+                <div class="col-sm-12 col-md-3 hidden-sm hidden-xs">
+                    <div class="vertical-featured-image-container">
+                        <img src="assets/images/features.png" class="wow fadeInUp" alt="Features">
+                    </div><!--end vertical image-->
+                </div><!--end column-->
+                <div class="col-sm-12 col-md-9 pl-40 pt-40">
+                    <div class="features__title">
+                        <h2>features</h2>
+                        <span class="features__subtitle">
+							Appee dolor sit amet, eum dissentias philosophia an. No melius virtute vis, vix dolor dolore efficianturex cum atomorum definitiones. His in natum vocent, te suas zril primis nec. Eum dissentias philosophia an.
+                        </span>
+                    </div><!--end features title-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon1.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon2.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon3.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon4.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon5.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                        <div class="col-sm-6">
+                            <div class="features__feature">
+                                <span class="features__feature-icon icon icon-x3">
+                                    <img src="assets/images/icons/icon6.png" alt="">
+                                </span>
+                                <div class="features__feature-content">
+                                    <h4>great usability</h4>
+                                    <p>
+                                        An mazim civibus usu, est quis et. Mea veniam constituto eu. Veniam constituto eu. No melius virtute vis, vix dolor cum.
+                                    </p>
+                                </div>
+                            </div><!--end feature-->
+                        </div><!--end column-->
+                    </div><!--end row-->
+                </div><!--end column-->
+            </div><!--end features content-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end features-->
+
 <!--Download Section-->
 <section id="section-download" class="download lazyload">
     <div class="download__app">
