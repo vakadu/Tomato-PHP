@@ -22,6 +22,8 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/styles/styles.css"/>
+    <!--Jquery UI CSS-->
+    <link rel="stylesheet" href="assets/styles/jquery-ui.min.css"/>
 
 </head>
 

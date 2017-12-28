@@ -11623,6 +11623,60 @@ textarea:focus {
     border-color: #cb212c!important;
 }
 
+.ui-datepicker {
+    width: 26em !important;
+    padding: 0 !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    font-size: 17px;
+    line-height: 2.5em;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    top: 8px !important;
+}
+
+.ui-datepicker th {
+    font-size: 15px !important;
+}
+
+.ui-widget-content,
+.ui-widget-header {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+    border: 1px solid #ededed !important;
+}
+
+.ui-widget-header{
+    color:#ffffff !important;
+    border-color: #cb212c !important;
+    background-color: #cb212c !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background-color: #ffffff !important;
+    color: #555555 !important;
+    border-color: #ededed !important;
+    font-size: 15px !important;
+}
+
+.ui-datepicker th {
+    color: #555555 !important;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    text-align: center !important;
+}
+
+.ui-widget-header .ui-icon {
+    background-image: url(/Website-v3.0.1/assets/images/ui-icons_ffffff_256x240.png) !important;
+}
+
 .form__search {
     margin-bottom: 60px;
     display: block;
@@ -11825,7 +11879,7 @@ textarea:-ms-input-placeholder {
 .btn--orange {
     background-color: #cb212c;
     border-color: #cb212c;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 13px;
     letter-spacing: 1px;
     margin-top: 10px
@@ -12750,32 +12804,43 @@ a[aria-expanded=true] .fa-angle-up {
 .search--food-item__restaurant {
     border-top: 1px solid #eaebeb;
     float: left;
-    width: 100%
+    width: 100%;
 }
 
 .search--food-item__restaurant .left {
-    padding: 8px 15px
+    padding: 8px 15px;
 }
 
 .search--food-item__restaurant .left img {
-    padding-top: 3px
+    padding-top: 3px;
 }
 
 .search--food-item__restaurant-right {
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .search--food-item__restaurant-right a {
     display: block;
     color: #414551;
     font-size: 14px;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .search--food-item__restaurant-right span {
     color: #979797;
     font-size: 13px;
     font-weight: 300
+}
+
+.search--food-item__restaurant_book .left{
+    padding: 8px 15px;
+}
+
+.search--food-item__restaurant_book a{
+    display: block;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 400;
 }
 
 .widget {

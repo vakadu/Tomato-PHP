@@ -71,9 +71,16 @@
                                 <div class="search--food-item__restaurant">
                                     <div class="left">
                                         <a class="pull-left" href="#"> <img src="http://placehold.it/50x46" alt=""> </a>
-                                        <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
+                                        <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span>
+                                        </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -97,6 +104,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -120,6 +133,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -143,6 +162,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -166,6 +191,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -189,6 +220,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 
@@ -212,6 +249,12 @@
                                         <div class="pull-left search--food-item__restaurant-right"> <a href="#">Half Moon</a> <span>OMBR Layout</span> </div>
                                     </div>
                                 </div><!--end item restaurant-->
+                                <div class="search--food-item__restaurant_book">
+                                    <div class="left">
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Menu</a>
+                                        <a href="#" class="btn btn-xs btn--orange btn--ripple pull-left">Reserve</a>
+                                    </div>
+                                </div><!--end restaurant book-->
                             </div><!--end wrap-->
                         </div><!--end column-->
 

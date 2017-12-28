@@ -42,10 +42,10 @@
             <div class="features__content">
                 <div class="col-sm-12 col-md-3 hidden-sm hidden-xs">
                     <div class="vertical-featured-image-container">
-                        <img src="assets/images/features.png" class="wow fadeInUp" alt="Features">
+                        <img src="assets/images/features.png" class="wow fadeInLeft" alt="Features">
                     </div><!--end vertical image-->
                 </div><!--end column-->
-                <div class="col-sm-12 col-md-9 pl-40 pt-40">
+                <div class="col-sm-12 col-md-9 pl-40 pt-40 wow fadeInRight">
                     <div class="features__title">
                         <h2>features</h2>
                         <span class="features__subtitle">

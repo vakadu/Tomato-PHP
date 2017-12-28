@@ -43,6 +43,10 @@
                             <form>
                                 <div class="row">
                                     <div class="form-group col-sm-12">
+                                        <label for="reservation-time">Reservation Time</label>
+                                        <input class="form-control input--orange" type="text" value="" id="datepicker" placeholder="Reservation Time">
+                                    </div><!--end form group-->
+                                    <div class="form-group col-sm-12">
                                         <label for="restaurant-name">Restaurant Name</label>
                                         <input class="form-control input--orange" type="text" value="" id="restaurant-name" placeholder="Eg. Kritunga">
                                     </div><!--end form group-->

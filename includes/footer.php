@@ -64,6 +64,8 @@
 <!--start scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/scripts/jquery-ui.js"></script>
+<script src="assets/scripts/jquery-ui-timepicker.js"></script>
 <script src="assets/scripts/validate.js"></script>
 <script src="assets/scripts/wow.min.js"></script>
 <script src="assets/scripts/headroom.js"></script>
