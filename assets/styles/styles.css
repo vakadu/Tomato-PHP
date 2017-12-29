@@ -11440,18 +11440,6 @@ hr {
     padding-bottom: 200px
 }
 
-/*.preloader{*/
-    /*position: fixed;*/
-    /*left: 0;*/
-    /*top: 0;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*z-index: 9999999;*/
-    /*background-color: #ffffff;*/
-    /*background-position: center center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-image: url(/Website-v3.0.1/assets/images/preloader.GIF);*/
-/*}*/
 .preloader{
     position: fixed;
     left: 0;
@@ -13279,4 +13267,212 @@ label.error{
     font-size: 11px;
     color: #cb212c;
     font-weight: 500;
+}
+
+.roadmap {
+    margin-bottom: 80px;
+}
+
+.roadmap__timeline {
+    height: 100%;
+}
+
+.roadmap__timeline::after {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 12px;
+    left: 49.8%;
+    width: 3px;
+    height: 100%;
+    background-color: #7e868e;
+    z-index: 5;
+}
+
+@media (min-width: 800px) {
+    .roadmap__timeline::after {
+        display: block
+    }
+}
+
+@media (max-width: 991px) {
+    .roadmap__timeline::after {
+        display: none
+    }
+}
+
+.roadmap__timeline-category {
+    text-align: center;
+    position: relative;
+    z-index: 6;
+}
+
+.roadmap__bt-timeline {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    background: url("/Website-v3.0.1/assets/images/green-band.png");
+    padding: 25px 15px 15px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 20px;
+    width: 20%;
+}
+
+@media (max-width: 991px) {
+    .roadmap__bt-timeline {
+        width: 100%;
+    }
+}
+
+.roadmap__bt-timeline:hover {
+    color: #ffffff !important;
+}
+
+.roadmap__timeline-category-icon {
+    margin-top: 20px;
+}
+
+.roadmap__edu-category {
+    clear: both;
+}
+
+.roadmap__timeline-post-left {
+    text-align: right;
+}
+
+.roadmap__timeline-post-right {
+    text-align: left;
+}
+
+.roadmap__timeline-post {
+    padding: 10px;
+}
+
+.roadmap__timeline-post-left .roadmap__timeline-post:first-child {
+    margin-top: 20px;
+}
+
+@media (min-width: 991px) {
+    .roadmap__timeline-post-left .roadmap__timeline-post:first-child {
+        margin-top: 65px
+    }
+}
+
+.roadmap__timeline-post-content-holder {
+    padding: 15px;
+}
+
+.roadmap__timeline-post:hover .roadmap__timeline-post-content-holder {
+    position: relative;
+    border-radius: 5px;
+    background-color: #eaebeb;
+}
+
+.roadmap__timeline-post-left > .roadmap__timeline-post > .roadmap__timeline-post-content-holder > .roadmap__timeline-post-icon {
+    position: absolute;
+    right: 0;
+    background-color: #82b21c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: -7px;
+    z-index: 6;
+    margin-top: 10px;
+}
+
+.roadmap__timeline-post-right > .roadmap__timeline-post > .roadmap__timeline-post-content-holder > .roadmap__timeline-post-icon {
+    position: absolute;
+    left: 0;
+    background-color: #82b21c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -9px;
+    z-index: 6;
+    margin-top: 10px;
+}
+
+.roadmap__timeline-post-left > .roadmap__timeline-post:hover > .roadmap__timeline-post-content-holder > .roadmap__timeline-post-icon {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: -32px;
+    z-index: 6;
+    margin-top: 10px;
+}
+
+.roadmap__timeline-post-right > .roadmap__timeline-post:hover > .roadmap__timeline-post-content-holder > .roadmap__timeline-post-icon {
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -34px;
+    z-index: 6;
+    margin-top: 10px;
+}
+
+.roadmap__timeline-post-right > .roadmap__timeline-post:hover > .roadmap__timeline-post-content-holder::before {
+    right: 100%;
+    top: 15%;
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: 13px solid rgba(255, 255, 255, 0);
+    border-right-color: #eaebeb;
+    margin-top: -13px;
+}
+
+.roadmap__timeline-post-left > .roadmap__timeline-post:hover > .roadmap__timeline-post-content-holder::before {
+    left: 100%;
+    top: 15%;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: 13px solid rgba(255, 255, 255, 0);
+    border-left-color: #eaebeb;
+    margin-top: -13px;
+}
+
+.roadmap__timeline-post-title h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.roadmap__timeline-post-subtitle p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.roadmap__timeline-duration {
+    position: relative;
+    padding-left: 15px;
+}
+
+.roadmap__timeline-duration::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    line-height: 1;
+    background-color: #82b21c;
+    left: 7px;
+    margin-top: 13px;
+    border-radius: 50%;
+}
+
+.roadmap__timeline-post-content {
+    font-size: 16px;
+    line-height: 28px;
 }

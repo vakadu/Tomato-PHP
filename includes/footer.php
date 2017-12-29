@@ -16,6 +16,7 @@
                 <ul>
                     <li><a href="http://blog.kwiqpick.com/" target="_blank">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="roadmap.php">Road Map</a></li>
                 </ul>
             </div><!--end footer about-->
 
